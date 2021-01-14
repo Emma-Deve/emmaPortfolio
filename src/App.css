@@ -1,0 +1,12 @@
+/* variant： call it by: var(name) */
+:root {
+  --main-color: #fda172;
+}
+
+body {
+  background-color: #eee;
+}
+.container_shadow {
+  border-radius: 7px;
+  box-shadow: #ddd 5px;
+}

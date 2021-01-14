@@ -1,0 +1,28 @@
+.portrait {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  .portrait_name{
+    line-height: 18px;
+    padding:20px;
+    .name{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    }
+    .title{
+      font-size: 13px;
+      color: #777;
+    }
+  }
+  .portrait_img{
+    width: 100%;
+    margin-top: -10px;
+    clip-path:polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  }
+  .portrait_button{
+    width: 100%;
+    background-color: var(--main-color)
+  }
+}
