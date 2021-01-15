@@ -1,46 +1,26 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from 'react-router-dom'
-import { Container, Grid } from '@material-ui/core'
-import { makeStyles } from '@material-ui/styles'
 
 import './App.css'
-import Resume from './views/Resume/Resume'
-import Blog from './views/Blog/Blog'
-import Contact from './views/Contact/Contact'
-import Portfolio from './views/Portfolio/Portfolio'
-import Portrait from './views/Portrait/Portrait'
-import Particles from './components/Particles/Particles'
+import SideBar from './views/SideBar/SideBar'
+import Main from './views/Main/Main'
+import Header from './views/Header/Header'
+import Footer from './views/Footer/Footer'
 
 function App() {
   return (
-    <Container>
+    <div className="app container">
       {/* <Particles /> */}
-      <Grid container style={{ marginTop: '30px' }}>
-        <Grid item xs={false} sm={1} lg={2} />
-        <Grid item container xs={12} sm={10} lg={8} spacing={2}>
-          <Grid item xs={12} sm={3}>
-            <Portrait />
-          </Grid>
-          <Grid item xs={12} sm={9}>
-            <Router>
-              <Switch>
-                <Route exact path="/resume" component={Resume} />
-                <Route exact path="/portfolio" component={Portfolio} />
-                <Route exact path="/blog" component={Blog} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact render={() => <Redirect to="/resume" />} />
-              </Switch>
-            </Router>
-          </Grid>
-        </Grid>
-        <Grid item xs={false} sm={1} lg={2} />
-      </Grid>
-    </Container>
+      <div className="row">
+        <div className="app_left col-xl-3 col-lg-4">
+          <SideBar />
+        </div>
+        <div className="app_right col-xl-9 col-lg-8">
+          <Header />
+          <Main />
+          <Footer />
+        </div>
+      </div>
+    </div>
   )
 }
 

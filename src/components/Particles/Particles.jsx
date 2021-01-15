@@ -6,9 +6,12 @@ import MUIParticles from 'react-particles-js'
 const useStyles = makeStyles((theme) => ({
   particles: {
     position: 'absolute',
+    top: '-30px',
+    left: 0,
     opacity: 0.3,
     width: '100vw',
     height: '100vh',
+    zIndex: '-99',
   },
 }))
 
@@ -29,7 +32,7 @@ const Particles = () => {
           shape: {
             type: 'triangle',
             stroke: {
-              width: 5,
+              width: 10,
               color: '#FF4500',
             },
           },

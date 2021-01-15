@@ -1,0 +1,42 @@
+.portrait {
+  width: 100%;
+  padding-bottom: 25px;
+  // margin: 15px;
+  .portrait_name {
+    line-height: 18px;
+    padding: 18px;
+    .name {
+      text-transform: uppercase;
+      font-size: 22px;
+      font-weight: bold;
+      // color: var(--main-color);
+      color: black;
+    }
+    .title {
+      font-size: 13px;
+      color: #777;
+    }
+  }
+  .portrait_img {
+    width: 100%;
+    margin-top: -15px;
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  }
+  .timeline {
+    padding: 0 0 25px 0;
+    margin-top: -28px;
+    .item_text {
+      font-size: 13px;
+      color: #777;
+    }
+    .item_title {
+      padding-right: 4px;
+      color: black;
+      text-transform: capitalize;
+    }
+  }
+  .portrait_button {
+    text-align: center;
+  }
+}

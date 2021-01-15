@@ -1,12 +1,24 @@
 /* variant： call it by: var(name) */
 :root {
-  --main-color: #fda172;
+  --main-color: #fda172; /* or #FBB50E */
 }
 
 body {
-  background-color: #eee;
+  margin-top: 50px;
+  z-index: 99;
+}
+.app_left {
+  padding: 15px;
+}
+.app_right {
+  margin: 0;
+  padding: 15px;
 }
 .container_shadow {
   border-radius: 7px;
-  box-shadow: #ddd 5px;
+  box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.13);
+  overflow-x: hidden;
+  background-color: white;
 }

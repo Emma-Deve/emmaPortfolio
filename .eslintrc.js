@@ -5,7 +5,7 @@ eslint格式化
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es6: true,
   },
   extends: ['react-app', 'plugin:prettier/recommended'],
   globals: {

@@ -1,0 +1,19 @@
+.myButton {
+  background-color: var(--main-color) !important;
+  border-radius: 20px !important;
+  text-transform: capitalize !important;
+  .text {
+    font-weight: 600 !important;
+    margin-left: 15px;
+    margin-right: 7px;
+  }
+  .MuiSvgIcon-root {
+    padding: 5px;
+    margin-right: 3px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}

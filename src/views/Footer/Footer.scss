@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  height: 70px;
+  background-color: rgb(46, 46, 46);
+  font-size: 14px;
+  .name {
+    padding-left: 30px;
+    color: rgb(235, 235, 235);
+    font-weight: 550;
+  }
+  .title {
+    padding-right: 30px;
+    color: #aaa;
+  }
+}

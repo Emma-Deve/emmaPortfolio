@@ -6,7 +6,6 @@ body {
     'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  background: #fafafa url('./assets/img/bg.jpg') no-repeat fixed center;
+  background: url('./assets/img/bg.jpg') no-repeat fixed center;
   background-size: 100% 100%;
 }
