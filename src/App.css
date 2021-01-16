@@ -4,15 +4,23 @@
 }
 
 body {
-  margin-top: 50px;
+  margin-top: 40px;
   z-index: 99;
 }
 .app_left {
-  padding: 15px;
+  padding: 0 10px 30px 10px;
 }
 .app_right {
-  margin: 0;
+  padding: 0 10px 0 15px;
+}
+.header {
+}
+.main {
+  margin: 30px 0;
   padding: 15px;
+}
+
+.footer {
 }
 .container_shadow {
   border-radius: 7px;

@@ -9,7 +9,7 @@ import HeaderLeftNav from '../../components/HeaderLeftNav/HeaderLeftNav'
 
 function Header() {
   return (
-    <div className="header container_shadow">
+    <div className="header">
       <HeaderLeftNav />
       <div className="header_right">
         <div className="icons d-inline-block d-md-none d-xl-inline-block">

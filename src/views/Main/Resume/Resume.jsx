@@ -5,7 +5,7 @@ import './Resume.scss'
 
 function Resume() {
   return (
-    <Box component="div" className="resume container_shadow">
+    <Box component="div" className="resume">
       <Typography>Resume</Typography>
     </Box>
   )

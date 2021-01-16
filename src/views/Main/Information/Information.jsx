@@ -4,7 +4,7 @@ import './Information.scss'
 
 function Information() {
   return (
-    <Box component="div" className="information container_shadow">
+    <Box component="div" className="information">
       Information
     </Box>
   )

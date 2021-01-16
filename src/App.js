@@ -15,9 +15,15 @@ function App() {
           <SideBar />
         </div>
         <div className="app_right col-xl-9 col-lg-8">
-          <Header />
-          <Main />
-          <Footer />
+          <div className="header container_shadow">
+            <Header />
+          </div>
+          <div className="main container_shadow">
+            <Main />
+          </div>
+          <div className="footer container_shadow">
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
