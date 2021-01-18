@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, withRouter } from 'react-router-dom'
-import { Button, Menu, MenuItem } from '@material-ui/core'
+import { Button, Menu } from '@material-ui/core'
 import MenuSharpIcon from '@material-ui/icons/MenuSharp'
 import routeList from '../../routeList/routeList'
 import HomeIcon from '@material-ui/icons/Home'

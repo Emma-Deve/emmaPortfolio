@@ -1,0 +1,23 @@
+.my_title {
+  position: relative;
+  display: block;
+  .title {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+    padding: 0 5px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 13px;
+      left: 0px;
+      height: 8px;
+      width: 100%;
+      opacity: 0.4;
+      background-color: var(--main-color);
+      z-index: -1;
+    }
+  }
+}

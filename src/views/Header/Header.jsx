@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from '@material-ui/core'
 import SendIcon from '@material-ui/icons/Send'
-import resumeData from '../../utils/resumeData'
 
 import './Header.scss'
 import MyButton from '../../components/MyButton/MyButton'
+import SocialLink from '../../components/SocialLink/SocialLink'
 import HeaderLeftNav from '../../components/HeaderLeftNav/HeaderLeftNav'
 
 function Header() {
@@ -12,18 +11,12 @@ function Header() {
     <div className="header">
       <HeaderLeftNav />
       <div className="header_right">
-        <div className="icons d-inline-block d-md-none d-xl-inline-block">
-          {Object.keys(resumeData.socials).map((key, index) => (
-            <Link
-              key={index}
-              className="icon"
-              href={resumeData.socials[key].link}
-            >
-              {resumeData.socials[key].icon}
-            </Link>
-          ))}
-        </div>
-        <MyButton text="hire me" icon={<SendIcon />} />
+        <SocialLink />
+        <MyButton
+          text="hire me"
+          icon={<SendIcon />}
+          href="mailto:limeng19917@gmail.com"
+        />
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
-import Information from '../views/Main/Information/Information'
-import Resume from '../views/Main/Resume/Resume'
+import Home from '../views/Main/Home/Home'
+import Experience from '../views/Main/Experience/Experience'
 import Portfolio from '../views/Main/Portfolio/Portfolio'
-import Blog from '../views/Main/Blog/Blog'
+import Projects from '../views/Main/Projects/Projects'
 import Contact from '../views/Main/Contact/Contact'
 import HomeIcon from '@material-ui/icons/Home'
 
@@ -10,26 +10,27 @@ const routeList = [
     name: 'home',
     path: '/home',
     exact: true,
-    component: Information,
+    component: Home,
     icon: <HomeIcon />,
   },
   {
-    name: 'resume',
-    path: '/resume',
+    name: 'experience',
+    path: '/experience',
     exact: true,
-    component: Resume,
+    component: Experience,
+  },
+
+  {
+    name: 'projects',
+    path: '/projects',
+    exact: true,
+    component: Projects,
   },
   {
     name: 'portfolio',
     path: '/portfolio',
     exact: true,
     component: Portfolio,
-  },
-  {
-    name: 'blog',
-    path: '/blog',
-    exact: true,
-    component: Blog,
   },
   {
     name: 'contact',

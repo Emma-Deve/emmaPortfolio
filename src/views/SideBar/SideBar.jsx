@@ -5,6 +5,7 @@ import PersonIcon from '@material-ui/icons/Person'
 import GetAppIcon from '@material-ui/icons/GetApp'
 
 import './SideBar.scss'
+import resume from '../../assets/resume/Meng Li -  FrontEnd.pdf'
 import MyTimeLineItem, {
   MyTimeLineHeader,
 } from '../../components/MyTimeLine/MyTimeLine'
@@ -12,7 +13,7 @@ import resumeData from '../../utils/resumeData'
 import MyButton from '../../components/MyButton/MyButton'
 
 function SideBar() {
-  const data = resumeData.information
+  const sidebarData = resumeData.sidebar || {}
 
   return (
     <Box component="div" className="portrait container_shadow">
@@ -25,22 +26,25 @@ function SideBar() {
         src={resumeData.avatar}
         alt={resumeData.name}
       />
-      <Timeline className="timeline">
+      <div className="timeline">
         <MyTimeLineHeader icon={<PersonIcon />} title={''} text={''} />
-        {Object.keys(resumeData.information).map((key, index) => (
+        {Object.keys(sidebarData).map((key, index) => (
           <MyTimeLineItem
             key={index}
+            isLastItem={
+              index === Object.keys(sidebarData).length - 1 ? true : false
+            }
             title={
               <Typography className="item_text">
                 <span className="item_title">{key}:</span>
-                {resumeData.information[key]}
+                {sidebarData[key]}
               </Typography>
             }
           />
         ))}
-      </Timeline>
+      </div>
       <div className="portrait_button">
-        <MyButton icon={<GetAppIcon />} text="Download Cv" />
+        <MyButton icon={<GetAppIcon />} text="Download Cv" href={resume} />
       </div>
     </Box>
   )

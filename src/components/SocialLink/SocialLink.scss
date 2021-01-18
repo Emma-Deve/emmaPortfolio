@@ -1,0 +1,22 @@
+.icons {
+  display: inline;
+  margin-right: 20px;
+  .icon {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 45px;
+
+    .MuiSvgIcon-root {
+      width: 17px;
+      color: black;
+      background-color: transparent;
+    }
+    &:hover {
+      .MuiSvgIcon-root {
+        width: 30px;
+        color: var(--main-color);
+      }
+    }
+  }
+}

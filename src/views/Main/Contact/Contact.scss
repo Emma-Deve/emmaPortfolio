@@ -1,3 +1,29 @@
 .contact {
-  min-height: 515px;
+  padding: 50px;
+  border: none;
+  height: 545px;
+  .form {
+    margin-bottom: 150px;
+    .title {
+      margin-top: 10px;
+    }
+    .button {
+      margin-top: 20px;
+      margin-bottom: 150px;
+    }
+  }
+
+  .information {
+    margin-bottom: 250px;
+    .title {
+      margin-top: 10px;
+    }
+    .item {
+      line-height: 50px;
+      font-size: 14px;
+      .item_title {
+        font-weight: bold;
+      }
+    }
+  }
 }

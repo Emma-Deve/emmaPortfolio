@@ -48,28 +48,29 @@
 /* Item dot */
 .timeline_item {
   padding-left: 11px;
-  min-height: 35px !important;
-  /* header dot size */
-  .timeline_item_dot {
-    margin: 3px;
-    padding: 2px;
-    border: 3px solid var(--main-color);
-    background-color: transparent;
+  min-height: 0px !important;
+  .timeline_item_separator {
+    .timeline_item_dot {
+      margin: 3px;
+      padding: 2px;
+      border: 3px solid var(--main-color);
+      background-color: transparent;
+    }
   }
   .timeline_item_content {
-    position: absolute;
-    top: 12px;
-    left: 25px;
     .timeline_item_title {
-      font-size: 14px;
+      margin-top: -6px;
+      padding-top: 0;
+      font-size: 16px;
     }
     .timeline_item_subtitle {
-      font-size: 12px;
+      font-size: 14px;
       padding-bottom: 5px;
     }
     .timeline_item_text {
-      font-size: 12px;
+      font-size: 14px;
       color: #777;
+      padding-bottom: 10px;
     }
   }
 }

@@ -2,11 +2,13 @@ import React from 'react'
 import { Button, Typography } from '@material-ui/core'
 import './MyButton.scss'
 
-function MyButton({ text, icon }) {
+function MyButton({ href, text, icon }) {
   return (
-    <Button className="myButton" endIcon={icon}>
-      <Typography className="text">{text}</Typography>
-    </Button>
+    <a className="link" href={href} download="resume">
+      <Button className="myButton" endIcon={icon}>
+        <Typography className="text">{text}</Typography>
+      </Button>
+    </a>
   )
 }
 export default MyButton

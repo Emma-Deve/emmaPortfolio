@@ -1,11 +1,19 @@
+.link {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
 .myButton {
   background-color: var(--main-color) !important;
   border-radius: 20px !important;
   text-transform: capitalize !important;
+
+  &:focus {
+    outline: none;
+  }
   .text {
     font-weight: 600 !important;
-    margin-left: 15px;
-    margin-right: 7px;
+    margin-left: 10px;
   }
   .MuiSvgIcon-root {
     padding: 5px;

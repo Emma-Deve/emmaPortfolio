@@ -6,7 +6,7 @@ import './Footer.scss'
 function Footer() {
   return (
     <Box component="div" className="footer">
-      <Typography className="name">Meng Li</Typography>
+      <Typography className="name">Meng Li.</Typography>
       <Typography className="title">FrontEnd Software Engineer</Typography>
     </Box>
   )
