@@ -5,7 +5,7 @@ import MyButton from '../../../components/MyButton/MyButton'
 import ContactMailSharpIcon from '@material-ui/icons/ContactMailSharp'
 import MyTitle from '../../../components/MyTitle/MyTitle'
 import SocialLink from '../../../components/SocialLink/SocialLink'
-import resumeData from '../../../utils/resumeData'
+import resumeData from '../../../config/resumeData'
 
 function Contact() {
   const contactData = resumeData.sidebar || {}

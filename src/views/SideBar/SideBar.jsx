@@ -9,7 +9,7 @@ import resume from '../../assets/resume/Meng Li -  FrontEnd.pdf'
 import MyTimeLineItem, {
   MyTimeLineHeader,
 } from '../../components/MyTimeLine/MyTimeLine'
-import resumeData from '../../utils/resumeData'
+import resumeData from '../../config/resumeData'
 import MyButton from '../../components/MyButton/MyButton'
 
 function SideBar() {

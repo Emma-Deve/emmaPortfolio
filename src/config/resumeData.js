@@ -178,6 +178,24 @@ export default {
       caption: 'This is a CMS Project',
       description:
         'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+      images: [
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+        },
+      ],
     },
     {
       tag: 'jQuery',
@@ -186,6 +204,24 @@ export default {
       caption: 'This is a CMS Project',
       description:
         'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+      images: [
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+        },
+      ],
     },
     {
       tag: 'ReactNative',
@@ -194,6 +230,24 @@ export default {
       caption: 'This is a CMS Project',
       description:
         'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+      images: [
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+        },
+      ],
     },
     {
       tag: 'Bootstrap',
@@ -202,6 +256,24 @@ export default {
       caption: 'This is a CMS Project',
       description:
         'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+      images: [
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+        },
+        {
+          title: 'picture 1',
+          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+        },
+      ],
     },
   ],
 }

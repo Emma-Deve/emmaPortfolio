@@ -15,24 +15,44 @@ import {
   DialogContent,
   DialogTitle,
 } from '@material-ui/core'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Carousel } from 'react-responsive-carousel'
+
 import './Portfolio.scss'
-import resumeData from '../../../utils/resumeData'
-import logistics1 from '../../../assets/img/logistics-1.jpg'
-import logistics2 from '../../../assets/img/logistics-2.jpg'
+import resumeData from '../../../config/resumeData'
+import MyTitle from '../../../components/MyTitle/MyTitle'
 
 function Portfolio() {
   const [tabValue, setTabValue] = useState('All')
   const portfolioData = resumeData.portfolio
   const [projectDialog, setProjectDialog] = useState(false)
 
+  function openDialog(project) {
+    return (
+      <Dialog open={projectDialog} onClose={() => setProjectDialog(false)}>
+        <DialogTitle onClose={() => setProjectDialog(false)}>
+          {projectDialog.title}
+        </DialogTitle>
+        <DialogActions>
+          <Carousel>
+            {project.images.map((image, index) => (
+              <div key={index}>
+                <img src={image.url} />
+                <p className="legend">{image.title}</p>
+              </div>
+            ))}
+          </Carousel>
+        </DialogActions>
+        <DialogContent>{projectDialog.description}</DialogContent>
+      </Dialog>
+    )
+  }
+
   return (
-    <Grid container className="section pb_45 pt_45">
+    <Grid container className="section">
       {/* title */}
-      <Grid item className="section_title mb_30">
-        <span></span>
-        <Typography variant="h6" className="section_title_text">
-          Portfolio
-        </Typography>
+      <Grid item className="title">
+        <MyTitle title="Portfolio" />
       </Grid>
 
       {/* tabs */}
@@ -55,7 +75,7 @@ function Portfolio() {
               label={tag}
               value={tag}
               className={
-                tabValue == 'All' ? 'customTabs_item active' : 'customTabs_item'
+                tag == tabValue ? 'customTabs_item active' : 'customTabs_item'
               }
             />
           ))}
@@ -64,30 +84,25 @@ function Portfolio() {
 
       {/* Projects */}
       <Grid item xs={12}>
-        <Grid container spacing={2}>
+        <Grid container spacing={8} justify="space-evenly">
           {portfolioData.map((project) => (
             <>
               {tabValue == project.tag || tabValue == 'All' ? (
-                <Grid item>
+                <Grid item xs={12} md={6}>
                   <Grow in timeout={1000}>
                     <Card
-                      className="portfolio_card"
+                      className="card"
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>
                         <CardMedia
                           style={{ height: 140 }}
-                          className="portfolio_img"
+                          className="img"
                           image={project.image}
                           title={project.title}
                         />
                         <CardContent>
-                          <Typography
-                            gutterBottom
-                            variant="h5"
-                            component="h2"
-                            className="portfolio_title"
-                          >
+                          <Typography gutterBottom className="title">
                             {project.title}
                           </Typography>
                           <Typography
@@ -102,29 +117,13 @@ function Portfolio() {
                       </CardActionArea>
                     </Card>
                   </Grow>
+                  {openDialog(project)}
                 </Grid>
               ) : null}
             </>
           ))}
         </Grid>
       </Grid>
-
-      {/* Open ProjectDialog */}
-      <Dialog open={projectDialog} onClose={() => setProjectDialog(false)}>
-        <DialogTitle onClose={() => setProjectDialog(false)}>
-          {projectDialog.title}
-        </DialogTitle>
-        <img src={logistics1} alt="logistics-1" />
-        <img src={logistics2} alt="logistics-2" />
-        <DialogContent>{projectDialog.description}</DialogContent>
-        <DialogActions>
-          {projectDialog?.links?.map((link) => (
-            <a href={link.link} target="blank">
-              {link.icon}
-            </a>
-          ))}
-        </DialogActions>
-      </Dialog>
     </Grid>
   )
 }

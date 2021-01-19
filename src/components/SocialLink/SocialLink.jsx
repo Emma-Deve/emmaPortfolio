@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from '@material-ui/core'
-import resumeData from '../../utils/resumeData'
+import resumeData from '../../config/resumeData'
 
 import './SocialLink.scss'
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Typography } from '@material-ui/core'
 import LaptopMacSharpIcon from '@material-ui/icons/LaptopMacSharp'
 import './Projects.scss'
-import resumeData from '../../../utils/resumeData'
+import resumeData from '../../../config/resumeData'
 import MyTitle from '../../../components/MyTitle/MyTitle'
 import MyTimeLineItem, {
   MyTimeLineHeader,
