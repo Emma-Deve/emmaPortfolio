@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
-import avatar from '../assets/img/avatar.jpeg'
+import avatar from '../assets/img/avatar.jpg'
 
 export default {
   /* Portrait */
@@ -153,7 +153,7 @@ export default {
     },
     {
       project: 'My Portfolio (Personal Project)',
-      website: 'https://github.com/Emma-Deve/portfolio',
+      website: 'https://meng.dmw32wrwz194l.amplifyapp.com',
       des:
         "Fulu Open Platform is a system which provides platform commercial partners with virtual goods-related services and value-added services. It need to be reconstructed due to the rapid expansion of the company's business.",
       activities: [
