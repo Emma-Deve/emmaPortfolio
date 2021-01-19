@@ -5,11 +5,12 @@ import SideBar from './views/SideBar/SideBar'
 import Main from './views/Main/Main'
 import Header from './views/Header/Header'
 import Footer from './views/Footer/Footer'
+import Particles from './components/Particles/Particles'
 
 function App() {
   return (
     <div className="app container">
-      {/* <Particles /> */}
+      <Particles />
       <div className="row">
         <div className="app_left col-xl-3 col-lg-4">
           <SideBar />
