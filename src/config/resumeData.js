@@ -138,7 +138,7 @@ export default {
         'Used ESLint and Prettier to standardize code writing',
       ],
       tech_stacks:
-        'JReact, React-router, React-Hooks, Redux, ES6, HTML, CSS/SASS, Redux-actions, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design, EasyMock',
+        'React, React-router, React-Hooks, Redux, ES6, HTML, CSS/SASS, Redux-actions, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design, EasyMock',
     },
     {
       project: 'Fulu Fast Recharge Mobile APP',

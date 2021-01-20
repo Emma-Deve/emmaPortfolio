@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Box,
   Grid,
@@ -25,17 +25,18 @@ import MyTitle from '../../../components/MyTitle/MyTitle'
 function Portfolio() {
   const [tabValue, setTabValue] = useState('All')
   const portfolioData = resumeData.portfolio
-  const [projectDialog, setProjectDialog] = useState(false)
+  const [projectDialog, setProjectDialog] = useState('')
 
-  function openDialog(project) {
+  function openDialog() {
+    console.log(projectDialog)
     return (
-      <Dialog open={projectDialog} onClose={() => setProjectDialog(false)}>
-        <DialogTitle onClose={() => setProjectDialog(false)}>
+      <Dialog open={projectDialog} onClose={() => setProjectDialog('')}>
+        <DialogTitle onClose={() => setProjectDialog('')}>
           {projectDialog.title}
         </DialogTitle>
         <DialogActions>
           <Carousel>
-            {project.images.map((image, index) => (
+            {projectDialog?.images?.map((image, index) => (
               <div key={index}>
                 <img src={image.url} />
                 <p className="legend">{image.title}</p>
@@ -85,7 +86,7 @@ function Portfolio() {
       {/* Projects */}
       <Grid item xs={12}>
         <Grid container spacing={8} justify="space-evenly">
-          {portfolioData.map((project) => (
+          {portfolioData.map((project, index) => (
             <>
               {tabValue == project.tag || tabValue == 'All' ? (
                 <Grid item xs={12} md={6}>
@@ -95,12 +96,7 @@ function Portfolio() {
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>
-                        <CardMedia
-                          style={{ height: 140 }}
-                          className="img"
-                          image={project.image}
-                          title={project.title}
-                        />
+                        <CardMedia className="img" image={project.image} />
                         <CardContent>
                           <Typography gutterBottom className="title">
                             {project.title}
@@ -117,7 +113,7 @@ function Portfolio() {
                       </CardActionArea>
                     </Card>
                   </Grow>
-                  {openDialog(project)}
+                  {openDialog()}
                 </Grid>
               ) : null}
             </>
