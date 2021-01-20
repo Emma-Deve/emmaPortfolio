@@ -3,11 +3,28 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 import avatar from '../assets/img/avatar.jpg'
+import cms_RechargeApi from '../assets/img/recharge-API.jpg'
+import cms_service from '../assets/img/service.jpg'
+import cms_logistics from '../assets/img/logistics.jpg'
+import cms_activities from '../assets/img/activities.jpg'
+
+import app_recharge_api from '../assets/img/recharge_api.jpg'
+import app_orders from '../assets/img/orders.jpg'
+import app_vouchers from '../assets/img/vouchers.jpg'
+import app_voucherList from '../assets/img/voucher_list.jpg'
+
+import web_website_1 from '../assets/img/website_1.jpg'
+import web_website_2 from '../assets/img/website_2.jpg'
+import web_website_3 from '../assets/img/website_3.jpg'
+
+import port_1 from '../assets/img/port_2.jpg'
+import port_2 from '../assets/img/port_3.jpg'
+import port_3 from '../assets/img/port_5.jpg'
 
 export default {
   /* Portrait */
   name: 'Meng Li',
-  title: 'FrontEnd Software Engineer',
+  title: 'Front-End Software Engineer',
   avatar: avatar,
 
   /* Side Bar Information */
@@ -38,15 +55,14 @@ export default {
   about_me: [
     {
       paragraph:
-        '3+ years’ experience as a front-end software en3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer',
+        'Meng is a front-end engineer who has more than 3 years+ of experience in developing web apps.',
     },
     {
       paragraph:
-        '3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer',
+        'She has extensive knowledge of JavaScript, CSS, HTML  as well as significant experience using JavaScript and its frameworks, in particular React, to create and implement web applications especially Content Management System. ',
     },
     {
-      paragraph:
-        '3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer3+ years’ experience as a front-end software engineer',
+      paragraph: 'She has a strong desire for knowledge, willing to share',
     },
   ],
 
@@ -54,53 +70,52 @@ export default {
   skills: [
     {
       title: 'Languages',
-      content: ['JavaScript(ES6)', 'CSS(SASS)', 'SQL'],
+      content: ['JavaScript(ES6)', 'HTML5', 'CSS3(SASS)', 'SQL'],
     },
     {
-      title: 'Framework/Labraries',
+      title: 'Framework',
       content: ['React', 'Redux', 'jQuery'],
     },
     {
-      title: 'Mobile Hybrid Framework',
+      title: 'Mobile Framework',
       content: ['React-Native'],
     },
     {
       title: 'UI libraries',
-      content: ['Ant-Design', 'RN-element', 'Bootstrap', 'Material-UI'],
+      content: ['Ant-Design', 'Bootstrap', 'Material-UI', 'RN-element'],
     },
     {
-      title: 'UI Tools',
-      content: ['Photoshop', 'Cutterman', 'Snipaste', 'Fireworks'],
-    },
-    {
-      title: 'Others',
+      title: 'Development Tools',
       content: [
         'Axios',
         'Webpack',
         'EasyMock',
-        'Styled-Components',
         'Git',
-        'Postman',
         'ESLint',
+        'Styled-Components',
       ],
+    },
+    {
+      title: 'UI Tools',
+      content: ['Photoshop', 'Cutterman', 'Snipaste', 'Fireworks'],
     },
   ],
 
   /* Experience */
   experience: {
     employer: 'Fulu Network Technology',
-    title: 'Front End Software Engineer',
+    title: 'Front-End Software Engineer',
     time: 'Mar 2017-Dec 2020',
     description:
-      'Fulu network Technology is an excellent provider of virtual products and services in China. It has a virtual commodity ecosystem - Fulu Open Platform which provides platform participants with virtual goods-related services and value-added services.',
+      'Fulu network Technology is an excellent provider of virtual products and services in China. It provides customers virtual goods related services and IT consultant services.',
     responsibilities: [
-      "Participated in the development of the company's internal system and applicationsParticipated in the development of the company's internal system and applicationsParticipated in the development of the company's internal system and applicationsParticipated in the development of the company's internal system and applicationsParticipated in the development of the company's internal system and applications",
-      'Completed the development of the functional module in charge',
-      'Realized page functions and interactive effects according to UI design',
+      "Participated in the development of the company's internal systems and applications",
+      'Developed new pages and features',
+      'Designed the interactive effects following by the UI design',
       'Developed reusable and maintainable components',
-      'Cooperated with back-end engineers to complete joint debugging work',
-      'Cooperated with the project manager to complete product adjustment and optimization',
-      'Solved browser compatibility issues during the development process',
+      'Collaborated with back-end engineers on APIs’ definition and integration',
+      'Cooperated with the product manager to adjust the projects',
+      'Fixed bugs according to the test reports from the test engineer',
     ],
   },
 
@@ -109,63 +124,63 @@ export default {
     {
       project: 'Fulu Open Platform Reconstruction',
       des:
-        "Fulu Open Platform is a system which provides platform commercial partners with virtual goods-related services and value-added services. It need to be reconstructed due to the rapid expansion of the company's business.",
+        "Fulu Open Platform is a system which provides commercial partners with virtual goods related services and value-added services. It needed to be reconstructed due to the rapid expansion of the company's businesses.",
       activities: [
-        'Participated in application modules development of Activities Management, Logistics Management and Recharge APIs management',
-        'Used React+React-Router+Redux+Ant-Design to participate to build the front-end of the project',
+        'Participated in the development of application modules including Sale-Activities Management, Logistics Status Management and Selected Recharge APIs Management',
         'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
+        'Realized page transformation by using React-Router',
+        'Managed the transfer of state values between components by using Redux',
+        'Sent Ajax requests to RESTful APIs by using Axios',
+        'Built pages layout by using Ant-Design UI library',
+        'Made customized components by Styled-Components',
+        'Mocked REST  APIs by using EasyMock',
+        'Defined styles by using SASS pre-processor',
+        'Used ESLint and Prettier to standardize code writing',
       ],
       tech_stacks:
-        'JavaScript, HTML, CSS, SASS, React, React-router, React-Hooks, Redux, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design',
+        'JReact, React-router, React-Hooks, Redux, ES6, HTML, CSS/SASS, Redux-actions, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design, EasyMock',
     },
     {
       project: 'Fulu Fast Recharge Mobile APP',
       des:
-        "Fulu Open Platform is a system which provides platform commercial partners with virtual goods-related services and value-added services. It need to be reconstructed due to the rapid expansion of the company's business.",
+        'It is a mobile application that contains the selected recharge APIs like phone balance and data, in which customers can register and purchase quickly.',
       activities: [
-        'Participated in application modules development of Activities Management, Logistics Management and Recharge APIs management',
-        'Used React+React-Router+Redux+Ant-Design to participate to build the front-end of the project',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
+        'Participated in application modules development of Products and Orders',
+        'Developed mobile application with React-Native under the environments of iOS and Android',
+        'Realized page transformation by using React-Navigation',
+        'Used React-Native-Debugger for development debugging',
+        'Managed state values using Redux, and sent Ajax requests using Axios',
+        'Built pages layout by using React-Native-Element UI library',
       ],
       tech_stacks:
-        'JavaScript, HTML, CSS, SASS, React, React-router, React-Hooks, Redux, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design',
+        'React-Native, React-Navigation, Redux, ES6, HTML, CSS/SASS, React-Native-Element, Axios',
     },
     {
-      project: 'Fulu Network Technology Company Official Website',
+      project: 'Fulu Network Technology Website',
       des:
-        "Fulu Open Platform is a system which provides platform commercial partners with virtual goods-related services and value-added services. It need to be reconstructed due to the rapid expansion of the company's business.",
+        'It is the company official website of Fulu Network Technology, which needed to be modified according to company’s businesses changes.',
       activities: [
-        'Participated in application modules development of Activities Management, Logistics Management and Recharge APIs management',
-        'Used React+React-Router+Redux+Ant-Design to participate to build the front-end of the project',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
+        'Participated in modifying and maintaining of the company web pages',
+        'Designed responsive layout by using Bootstrap',
+        'Achieved pages interaction by using JS and jQuery ',
+        'Built web pages accurately by using HTML5 and CSS3 according to UI design',
       ],
       tech_stacks:
-        'JavaScript, HTML, CSS, SASS, React, React-router, React-Hooks, Redux, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design',
+        'HTML, CSS, JavaScript, jQuery, Bootstrap, Photoshop, Cutterman, Snipaste, Fireworks',
     },
     {
       project: 'My Portfolio (Personal Project)',
-      website: 'https://meng.dmw32wrwz194l.amplifyapp.com',
-      des:
-        "Fulu Open Platform is a system which provides platform commercial partners with virtual goods-related services and value-added services. It need to be reconstructed due to the rapid expansion of the company's business.",
+      des: 'It is a personal responsive web application of My Portfolio',
       activities: [
-        'Participated in application modules development of Activities Management, Logistics Management and Recharge APIs management',
-        'Used React+React-Router+Redux+Ant-Design to participate to build the front-end of the project',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
-        'Used React to render front-end pages',
+        'Built the whole application',
+        'Deployed the project by using AWS amplify',
+        "Realized responsive layout with Bootstrap's",
+        'Realized UI design Material-UI library',
+        'Realized page transformation by using React-Router ',
+        'Used ESLint and Prettier to standardize code writing',
       ],
       tech_stacks:
-        'JavaScript, HTML, CSS, SASS, React, React-router, React-Hooks, Redux, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design',
+        'React, Hooks, Bootstrap, Material-UI, JSX, CSS/SASS, ESLint, Prettier',
     },
   ],
 
@@ -173,105 +188,97 @@ export default {
   portfolio: [
     {
       tag: 'React',
-      title: 'CMS',
-      image: 'https://miro.medium.com/max/1620/1*Uv8xlUn6B7yRV9mfNRVwdA.png',
-      caption: 'This is a CMS Project',
+      title: 'Fulu Open Platform',
+      image: cms_RechargeApi,
+      caption: 'React + Redux +  Axios + Ant-Design',
       description:
-        'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+        'Participated in the development of application modules including Sale-Activities Management, Logistics Status Management and Selected Recharge APIs Management',
       images: [
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+          title: 'cmsRecharge Apis',
+          url: cms_RechargeApi,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+          title: 'cms selected service',
+          url: cms_service,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+          title: 'cms logistics status',
+          url: cms_logistics,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
-        },
-      ],
-    },
-    {
-      tag: 'jQuery',
-      title: 'CMS',
-      image: 'https://miro.medium.com/max/1620/1*Uv8xlUn6B7yRV9mfNRVwdA.png',
-      caption: 'This is a CMS Project',
-      description:
-        'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
-      images: [
-        {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
-        },
-        {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
-        },
-        {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
-        },
-        {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+          title: 'cms sales activities',
+          url: cms_activities,
         },
       ],
     },
     {
       tag: 'ReactNative',
-      title: 'CMS',
-      image: 'https://miro.medium.com/max/1620/1*Uv8xlUn6B7yRV9mfNRVwdA.png',
-      caption: 'This is a CMS Project',
+      title: 'Fulu Fast Recharge APP',
+      image: app_recharge_api,
+      caption: 'ReactNative + Redux + React-Native-Element',
       description:
-        'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+        'It is a mobile application that contains the selected recharge APIs like phone balance and data, in which customers can register and purchase quickly.',
       images: [
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+          title: 'app selected recharge Apis',
+          url: app_recharge_api,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+          title: 'app orders',
+          url: app_orders,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+          title: 'app vouchers',
+          url: app_vouchers,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+          title: 'app voucherList',
+          url: app_voucherList,
         },
       ],
     },
     {
-      tag: 'Bootstrap',
-      title: 'CMS',
-      image: 'https://miro.medium.com/max/1620/1*Uv8xlUn6B7yRV9mfNRVwdA.png',
-      caption: 'This is a CMS Project',
+      tag: 'jQuery',
+      title: 'Fulu Network Technology Website',
+      image: web_website_1,
+      caption: 'jQuery + Bootstrap + HTML + CSS',
       description:
-        'This is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS ProjectThis is a CMS Project',
+        'It is the company official website of Fulu Network Technology, which needed to be modified according to company’s businesses changes.',
       images: [
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
+          title: 'web website 1',
+          url: web_website_1,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/arctichare.png',
+          title: 'web website 2',
+          url: web_website_2,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/baboon.png',
+          title: 'web website 3',
+          url: web_website_3,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      title: 'My Portfolio (Personal Project)',
+      image: port_1,
+      caption: 'React + Material-UI + Bootstrap',
+      description:
+        'It is a personal responsive web application of My Portfolio.',
+      images: [
+        {
+          title: 'port 1',
+          url: port_1,
         },
         {
-          title: 'picture 1',
-          url: 'https://homepages.cae.wisc.edu/~ece533/images/barbara.png',
+          title: 'port 2',
+          url: port_2,
+        },
+        {
+          title: 'port 3',
+          url: port_3,
         },
       ],
     },

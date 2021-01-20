@@ -4,7 +4,11 @@ import './MyButton.scss'
 
 function MyButton({ href, text, icon }) {
   return (
-    <a className="link" href={href} download="resume">
+    <a
+      className="link"
+      href={href}
+      download="Meng Li-Frontend Software Engineer"
+    >
       <Button className="myButton" endIcon={icon}>
         <Typography className="text">{text}</Typography>
       </Button>

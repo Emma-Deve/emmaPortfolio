@@ -5,7 +5,7 @@ import PersonIcon from '@material-ui/icons/Person'
 import GetAppIcon from '@material-ui/icons/GetApp'
 
 import './SideBar.scss'
-import resume from '../../assets/resume/Meng Li -  FrontEnd.pdf'
+import resume from '../../assets/resume/MengLi-FrontEnd.pdf'
 import MyTimeLineItem, {
   MyTimeLineHeader,
 } from '../../components/MyTimeLine/MyTimeLine'
