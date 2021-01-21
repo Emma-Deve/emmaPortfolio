@@ -45,7 +45,7 @@ function SideBar() {
         <MyButton
           icon={<GetAppIcon />}
           text="Download Cv"
-          href="https://myportforlio.s3-ap-southeast-2.amazonaws.com/MengLi.pdf"
+          href="https://myportforlio.s3-ap-southeast-2.amazonaws.com/MengLi_FrontEnd-Software-Engineer.pdf"
         />
       </div>
     </Box>
