@@ -55,7 +55,7 @@ export default {
   about_me: [
     {
       paragraph:
-        'Meng is a front-end engineer who has more than 3 years+ of experience in developing web apps.',
+        'Meng is a front-end engineer who has more than 3+ years of experience in developing web apps.',
     },
     {
       paragraph:
