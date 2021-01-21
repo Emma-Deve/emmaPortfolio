@@ -1,11 +1,10 @@
 import React from 'react'
 import { Box, Typography, Button } from '@material-ui/core'
-import { Timeline } from '@material-ui/lab'
 import PersonIcon from '@material-ui/icons/Person'
 import GetAppIcon from '@material-ui/icons/GetApp'
 
 import './SideBar.scss'
-import resume from '../../assets/resume/MengLi-FrontEnd.pdf'
+import resume from '../../assets/resume/MengLi.pdf'
 import MyTimeLineItem, {
   MyTimeLineHeader,
 } from '../../components/MyTimeLine/MyTimeLine'
