@@ -4,7 +4,6 @@ import PersonIcon from '@material-ui/icons/Person'
 import GetAppIcon from '@material-ui/icons/GetApp'
 
 import './SideBar.scss'
-import resume from '../../assets/resume/MengLi.pdf'
 import MyTimeLineItem, {
   MyTimeLineHeader,
 } from '../../components/MyTimeLine/MyTimeLine'
@@ -43,7 +42,11 @@ function SideBar() {
         ))}
       </div>
       <div className="portrait_button">
-        <MyButton icon={<GetAppIcon />} text="Download Cv" href={resume} />
+        <MyButton
+          icon={<GetAppIcon />}
+          text="Download Cv"
+          href="https://myportforlio.s3-ap-southeast-2.amazonaws.com/MengLi.pdf"
+        />
       </div>
     </Box>
   )

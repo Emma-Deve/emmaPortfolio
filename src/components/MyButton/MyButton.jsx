@@ -7,6 +7,7 @@ function MyButton({ href, text, icon }) {
     <a
       className="link"
       href={href}
+      target="_blank"
       download="Meng Li-Frontend Software Engineer.pdf"
     >
       <Button className="myButton" endIcon={icon}>
