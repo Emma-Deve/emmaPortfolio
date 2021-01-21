@@ -7,7 +7,7 @@ function MyButton({ href, text, icon }) {
     <a
       className="link"
       href={href}
-      download="Meng Li-Frontend Software Engineer"
+      download="Meng Li-Frontend Software Engineer.pdf"
     >
       <Button className="myButton" endIcon={icon}>
         <Typography className="text">{text}</Typography>
