@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  Timeline,
   TimelineItem,
   TimelineSeparator,
   TimelineConnector,
@@ -18,11 +17,7 @@ export function MyTimeLineHeader({ title, icon, text }) {
         <TimelineConnector />
       </TimelineSeparator>
       <TimelineContent className="timeline_header_content">
-        <Typography
-          className="timeline_header_title"
-          variant="h6"
-          component="h1"
-        >
+        <Typography className="timeline_header_title" variant="h6">
           {title}
         </Typography>
         <Typography className="timeline_header_text">{text}</Typography>

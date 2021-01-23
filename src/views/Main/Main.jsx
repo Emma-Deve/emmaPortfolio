@@ -7,7 +7,7 @@ import routeList from '../../routeList/routeList'
 
 function Main() {
   return (
-    <Box component="div" className="Main">
+    <Box className="Main">
       <Switch>
         {routeList.length
           ? routeList.map((item, index) => (

@@ -162,11 +162,10 @@ export default {
       activities: [
         'Participated in modifying and maintaining of the company web pages',
         'Designed responsive layout by using Bootstrap',
-        'Achieved pages interaction by using JS and jQuery ',
         'Built web pages accurately by using HTML5 and CSS3 according to UI design',
       ],
       tech_stacks:
-        'HTML, CSS, JavaScript, jQuery, Bootstrap, Photoshop, Cutterman, Snipaste, Fireworks',
+        'HTML, CSS, Bootstrap, Photoshop, Cutterman, Snipaste, Fireworks',
     },
     {
       project: 'My Portfolio (Personal Project)',

@@ -60,7 +60,7 @@ function HeaderLeftNav(props) {
                 to={item.path}
                 // activeClassName={item.path == currentPath ? 'selected' : null}
                 className={`nav_link ${
-                  item.path == currentPath ? 'active' : null
+                  item.path === currentPath ? 'active' : null
                 }`}
               >
                 {item.icon ? null : getNavButton(item)}
@@ -77,7 +77,6 @@ function HeaderLeftNav(props) {
         ></Button>
         <Menu
           anchorEl={anchorEl}
-          // keepMounted
           open={Boolean(anchorEl)}
           onClose={() => setAnchorEl(null)}
           className="button_menu"
@@ -88,7 +87,7 @@ function HeaderLeftNav(props) {
                   key={index}
                   to={item.path}
                   className={`nav_link ${
-                    item.path == currentPath ? 'active' : null
+                    item.path === currentPath ? 'active' : null
                   }`}
                 >
                   {item.icon ? null : getMenuButton(item)}

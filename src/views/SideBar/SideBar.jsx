@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Typography, Button } from '@material-ui/core'
+import { Box, Typography } from '@material-ui/core'
 import PersonIcon from '@material-ui/icons/Person'
 import GetAppIcon from '@material-ui/icons/GetApp'
 
@@ -34,7 +34,7 @@ function SideBar() {
             }
             title={
               <Typography className="item_text">
-                <span className="item_title">{key}:</span>
+                <Typography className="item_title">{key}:</Typography>
                 {sidebarData[key]}
               </Typography>
             }

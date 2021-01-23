@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 import MUIParticles from 'react-particles-js'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   particles: {
     position: 'absolute',
     top: '-30px',

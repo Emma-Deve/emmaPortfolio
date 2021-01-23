@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import {
-  Box,
   Grid,
   Typography,
   Tabs,
@@ -68,18 +67,23 @@ function Portfolio() {
             label="All"
             value="All"
             className={
-              tabValue == 'All' ? 'customTabs_item active' : 'customTabs_item'
+              tabValue === 'All' ? 'customTabs_item active' : 'customTabs_item'
             }
           />
-          {[...new Set(portfolioData.map((item) => item.tag))].map((tag) => (
-            <Tab
-              label={tag}
-              value={tag}
-              className={
-                tag == tabValue ? 'customTabs_item active' : 'customTabs_item'
-              }
-            />
-          ))}
+          {[...new Set(portfolioData.map((item) => item.tag))].map(
+            (tag, index) => (
+              <Tab
+                key={index}
+                label={tag}
+                value={tag}
+                className={
+                  tag === tabValue
+                    ? 'customTabs_item active'
+                    : 'customTabs_item'
+                }
+              />
+            ),
+          )}
         </Tabs>
       </Grid>
 
@@ -88,7 +92,7 @@ function Portfolio() {
         <Grid container spacing={8} justify="space-evenly">
           {portfolioData.map((project, index) => (
             <>
-              {tabValue == project.tag || tabValue == 'All' ? (
+              {tabValue === project.tag || tabValue === 'All' ? (
                 <Grid item xs={12} md={6}>
                   <Grow in timeout={1000}>
                     <Card
@@ -104,7 +108,6 @@ function Portfolio() {
                           <Typography
                             variant="body2"
                             color="textSecondary"
-                            component="p"
                             className="portfolio_des"
                           >
                             {project.caption}

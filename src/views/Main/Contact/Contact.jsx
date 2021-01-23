@@ -43,19 +43,19 @@ function Contact() {
           {
             <Box component="div">
               <Typography className="item">
-                <span className="item_title">Address: </span>
+                <Typography className="item_title">Address: </Typography>
                 {contactData.address}
               </Typography>
               <Typography className="item">
-                <span className="item_title">Phone: </span>
+                <Typography className="item_title">Phone: </Typography>
                 {contactData.phone}
               </Typography>
               <Typography className="item">
-                <span className="item_title">Job: </span>
+                <Typography className="item_title">Job: </Typography>
                 {contactData.job}
               </Typography>
               <Typography className="item">
-                <span className="item_title">E-mail: </span>
+                <Typography className="item_title">E-mail: </Typography>
                 {contactData.email}
               </Typography>
               <SocialLink />
