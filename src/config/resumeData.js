@@ -126,9 +126,9 @@ export default {
       des:
         'Fulu Open Platform is a system which provides commercial partners with virtual goods related services and value-added services. Participated in the development of Sale-Activities Management System, Logistics Status Management System and Selected Recharge APIs Management System.',
       activities: [
-        'Participated in the development of application modules including Sale-Activities Management, Logistics Status Management and Selected Recharge APIs Management',
-        'Used React to render front-end pages',
-        'Realized page transformation by using React-Router',
+        'Participated in the development of Sale-Activities Management System, Logistics Status Management System and Selected Recharge APIs Management System',
+        'Split components according to their function, designed the relationship between components',
+        'Designed front-end route, built route with React-Router to realize page transformation',
         'Managed the transfer of state values between components by using Redux',
         'Sent Ajax requests to RESTful APIs by using Axios',
         'Built pages layout by using Ant-Design UI library',
