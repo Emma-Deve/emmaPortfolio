@@ -74,7 +74,7 @@ export default {
     },
     {
       title: 'Framework',
-      content: ['React', 'Redux', 'jQuery'],
+      content: ['React', 'Redux'],
     },
     {
       title: 'Mobile Framework',
@@ -124,7 +124,7 @@ export default {
     {
       project: 'Fulu Open Platform Reconstruction',
       des:
-        "Fulu Open Platform is a system which provides commercial partners with virtual goods related services and value-added services. It needed to be reconstructed due to the rapid expansion of the company's businesses.",
+        'Fulu Open Platform is a system which provides commercial partners with virtual goods related services and value-added services. Participated in the development of Sale-Activities Management System, Logistics Status Management System and Selected Recharge APIs Management System.',
       activities: [
         'Participated in the development of application modules including Sale-Activities Management, Logistics Status Management and Selected Recharge APIs Management',
         'Used React to render front-end pages',
