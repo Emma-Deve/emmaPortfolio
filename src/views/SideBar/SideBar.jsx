@@ -42,11 +42,7 @@ function SideBar() {
         ))}
       </div>
       <div className="portrait_button">
-        <MyButton
-          icon={<GetAppIcon />}
-          text="Download Cv"
-          href="https://myportforlio.s3-ap-southeast-2.amazonaws.com/MengLi-FrontEnd+Software+Engineer.pdf"
-        />
+        <MyButton icon={<GetAppIcon />} text="Download Cv" href="#" />
       </div>
     </Box>
   )

@@ -30,8 +30,8 @@ export default {
   /* Side Bar Information */
   sidebar: {
     name: 'Meng Li',
-    experience: '3+ years',
-    job: 'FrontEnd Software Engineer',
+    experience: 'About 4 years',
+    job: 'FrontEnd Developer',
     phone: '0466 818 861',
     email: 'limeng19917@gmail.com',
     address: 'Ashfeild, Sydney, NSW',
@@ -55,14 +55,22 @@ export default {
   about_me: [
     {
       paragraph:
-        'Meng is a front-end engineer who has more than 3+ years of experience in developing web apps.',
+        'I am a front-end developer with about 4 years of experience. My main tech stacks are React, Redux, JavaScript. ',
     },
     {
       paragraph:
-        'She has extensive knowledge of JavaScript, CSS, HTML  as well as significant experience using JavaScript and its frameworks, in particular React, to create and implement web applications especially Content Management System. ',
+        'In my previous job, I focused on the developments of CMS(content management system) with React for data visualization and modification.',
     },
     {
-      paragraph: 'She has a strong desire for knowledge, willing to share',
+      paragraph:
+        'I developed mobile Apps under the environment of iOS with React-Native.',
+    },
+    {
+      paragraph:
+        'I used Bootstrap and UI library likes material-UI to realize responsive layout and to restore UI-design by 100%.',
+    },
+    {
+      paragraph: 'I also have some understanding of RESTful and SQL.',
     },
   ],
 
