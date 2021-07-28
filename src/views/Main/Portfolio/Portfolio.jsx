@@ -27,7 +27,7 @@ function Portfolio() {
   const [projectDialog, setProjectDialog] = useState('')
 
   function openDialog() {
-    console.log(projectDialog)
+    // console.log(projectDialog)
     return (
       <Dialog open={projectDialog} onClose={() => setProjectDialog('')}>
         <DialogTitle onClose={() => setProjectDialog('')}>
@@ -93,7 +93,7 @@ function Portfolio() {
           {portfolioData.map((project, index) => (
             <>
               {tabValue === project.tag || tabValue === 'All' ? (
-                <Grid item xs={12} md={6}>
+                <Grid key={index} item xs={12} md={6}>
                   <Grow in timeout={1000}>
                     <Card
                       className="card"

@@ -12,10 +12,10 @@ function App() {
     <div className="app container">
       <Particles />
       <div className="row">
-        <div className="app_left col-xl-3 col-lg-4">
+        <div className="side-bar col-xl-3 col-lg-4">
           <SideBar />
         </div>
-        <div className="app_right col-xl-9 col-lg-8">
+        <div className="app_right  col-xl-9 col-lg-8">
           <div className="header container_shadow">
             <Header />
           </div>

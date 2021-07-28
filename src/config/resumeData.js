@@ -21,17 +21,31 @@ import port_1 from '../assets/img/port_2.jpg'
 import port_2 from '../assets/img/port_3.jpg'
 import port_3 from '../assets/img/port_5.jpg'
 
+import alekt_admin_1 from '../assets/img/alekt-admin-1.png'
+import alekt_admin_2 from '../assets/img/alekt-admin-4.png'
+import alekt_admin_3 from '../assets/img/alekt-admin-5.png'
+import alekt_admin_4 from '../assets/img/alekt-admin-6.png'
+
+import alekt_web_1 from '../assets/img/alekt-web-1.png'
+import alekt_web_2 from '../assets/img/alekt-web-2.png'
+import alekt_web_3 from '../assets/img/alekt-web-3.png'
+import alekt_web_4 from '../assets/img/alekt-web-4.png'
+
+import alekt_mobile_1 from '../assets/img/alekt-mobile-1.png'
+import alekt_mobile_2 from '../assets/img/alekt-mobile-2.png'
+import alekt_mobile_3 from '../assets/img/alekt-mobile-3.png'
+
 export default {
   /* Portrait */
-  name: 'Meng Li',
-  title: 'Front-End Software Engineer',
+  name: 'Emma Li',
+  title: 'React Developer',
   avatar: avatar,
 
   /* Side Bar Information */
   sidebar: {
-    name: 'Meng Li',
-    experience: 'About 4 years',
-    job: 'FrontEnd Developer',
+    name: 'Emma Li',
+    experience: '3+ years',
+    job: 'React Developer',
     phone: '0466 818 861',
     email: 'limeng19917@gmail.com',
     address: 'Ashfeild, Sydney, NSW',
@@ -55,22 +69,45 @@ export default {
   about_me: [
     {
       paragraph:
-        'I am a front-end developer with about 4 years of experience. My main tech stacks are React, Redux, JavaScript. ',
+        '3+ years of experience in front-end applications development with 3+ years in React and 1+ year in React-Native. ',
     },
     {
       paragraph:
-        'In my previous job, I focused on the developments of CMS(content management system) with React for data visualization and modification.',
+        'Proficient in designing and developing dynamic, interactive, reusable and fast web applications with React.js.',
     },
     {
       paragraph:
-        'I developed mobile Apps under the environment of iOS with React-Native.',
+        'Expertise in modern web architecture using various advanced JavaScript frameworks and libraries like React.js/Redux, React Native(RN), Bootstrap, Responsive web design (RWD).',
     },
     {
       paragraph:
-        'I used Bootstrap and UI library likes material-UI to realize responsive layout and to restore UI-design by 100%.',
+        'Experience in creating Single Page Application (SPA) with MVC pattern.',
     },
     {
-      paragraph: 'I also have some understanding of RESTful and SQL.',
+      paragraph:
+        'Experience in the using of Redux and middlewares such as Redux-Thunk, Redux-Saga.',
+    },
+    {
+      paragraph: 'Interactive Front-End engineering experience with Bootstrap.',
+    },
+    {
+      paragraph: 'Solid knowledge of CSS preprocessors such as SASS and LESS.',
+    },
+    {
+      paragraph:
+        'Experience in debugging and troubleshooting using debugging tools like Chrome.',
+    },
+    {
+      paragraph:
+        'Familiarity with software development life cycle (SDLC), work as part of Agile team to manage properties, deadlines and deliverables.',
+    },
+    {
+      paragraph:
+        'Work effectively independently and collaboratively in a diverse and fast-paced environment.',
+    },
+    {
+      paragraph:
+        'Good Team player and also have ability to work independently.',
     },
   ],
 
@@ -90,16 +127,16 @@ export default {
     },
     {
       title: 'UI libraries',
-      content: ['Ant-Design', 'Bootstrap', 'Material-UI', 'RN-element'],
+      content: ['Material-UI', 'Ant-Design', 'Bootstrap 4', 'RN-element'],
     },
     {
       title: 'Development Tools',
       content: [
         'Axios',
+        'Jest',
         'Webpack',
-        'EasyMock',
         'Git',
-        'ESLint',
+        'Postman',
         'Styled-Components',
       ],
     },
@@ -107,43 +144,114 @@ export default {
       title: 'UI Tools',
       content: ['Photoshop', 'Cutterman', 'Snipaste', 'Fireworks'],
     },
+    {
+      title: 'Backend',
+      content: ['NodeJs', 'Express', 'MongoDB', 'MySQL'],
+    },
   ],
 
   /* Experience */
-  experience: {
-    employer: 'Fulu Network Technology',
-    title: 'Front-End Software Engineer',
-    time: 'Mar 2017-Dec 2020',
-    description:
-      'Fulu network Technology is an excellent provider of virtual products and services in China. It provides customers virtual goods related services and IT consultant services.',
-    responsibilities: [
-      "Participated in the development of the company's internal systems and applications",
-      'Developed new pages and features',
-      'Designed the interactive effects following by the UI design',
-      'Developed reusable and maintainable components',
-      'Collaborated with back-end engineers on APIs’ definition and integration',
-      'Cooperated with the product manager to adjust the projects',
-      'Fixed bugs according to the test reports from the test engineer',
-    ],
-  },
+  experience: [
+    {
+      employer: 'Alekt Education',
+      title: 'Front-End Software Engineer',
+      time: 'Mar 2020-May 2021',
+      description:
+        'Responsible for the front end development and maintenance of dynamic and interactive web and mobile applications to achieve online classes, examinations and exercises.',
+      responsibilities: [
+        "Participated in the development of the company's internal systems and applications",
+        'Developed new pages and features',
+        'Designed the interactive effects following by the UI design',
+        'Developed reusable and maintainable components',
+        'Collaborated with back-end engineers on APIs’ definition and integration',
+        'Cooperated with the product manager to adjust the projects',
+        'Fixed bugs according to the test reports from the test engineer',
+      ],
+    },
+    {
+      employer: 'Fulu Network Technology',
+      title: 'Front-End Software Engineer',
+      time: 'Mar 2017-Dec 2019',
+      description:
+        "Responsible for the front end development and maintenance of company's Open Platform which provides commercial partners with virtual goods related services and value-added services.",
+      responsibilities: [
+        "Participated in the development of the company's internal systems and applications",
+        'Developed new pages and features',
+        'Designed the interactive effects following by the UI design',
+        'Developed reusable and maintainable components',
+        'Collaborated with back-end engineers on APIs’ definition and integration',
+        'Cooperated with the product manager to adjust the projects',
+        'Fixed bugs according to the test reports from the test engineer',
+      ],
+    },
+  ],
 
   /* Projects */
   projects: [
+    {
+      project: 'Alekt Online Education Web Application',
+      des:
+        'Responsible for the development of Course Modules, Exercise module, Assessment Module and Online Test Module.',
+      activities: [
+        'Responsible for creating web-based applications using JavaScript (ECMAScript 6), React JS and Redux workflow',
+        'Maintained Cross Browser compatibility & implement Responsive Web Design using Bootstrap, HTML5, CSS3',
+        'Built a single page application using the building blocks pure components, carousels, forms, routers, etc.',
+        'Used React developer tools plugin for debugging',
+        'Built single page application with modules, reusable components, forms using React JS',
+        'Knowledge of modern authorization mechanisms, such as JSON Web Token',
+        'Implemented server-side CSS preprocessors using SASS',
+        'Responsible to create responsive web application using Rest API',
+        'Committed code change into repository by using version control tool Git.',
+      ],
+      tech_stacks:
+        'React, React-router, React-Hooks, Redux, Redux-saga, ES6, HTML, CSS/SASS,   Styled-Components,  Axios,  GIt,  Material-UI',
+    },
+    {
+      project: 'Alekt Online Education Admin Application',
+      des:
+        'Responsible for the development of Teachers management, courses management, students management and statistics analysis.',
+      activities: [
+        'Skilled in leading frameworks as React.js to build high-quality, scalable and reusable components and Front-end solution.',
+        'Used React.js library functions for the logical implementation part for all the application.',
+        'Maintained states in the stores and dispatched the actions using redux.',
+        'Used various properties, parameters in ES6.',
+        'Used React-Router to turn application into Single Page Application',
+        'Called the Restful web services calls for POST, PUT, DELETE and GET methods.',
+        'Developed and applied application wide, cross platform Validation and Exception Handling policies.',
+      ],
+      tech_stacks:
+        'React, React-router, React-Hooks, Redux, Redux-saga, ES6, HTML, CSS/SASS,   Styled-Components,  Axios,  GIt,  Material-UI',
+    },
+
+    {
+      project: 'Alekt Online Education Mobile Application',
+      des:
+        'Responsible for the development of Course Module, Exercise module, Assessment Module and Study Center Module.',
+      activities: [
+        'Developed hybrid mobile platform for automotive applications using JS and React-Native, resulting in 88% code share between iOS and Android while reducing development time by 33%.',
+        'Managed state values by using Redux',
+        'Built pages layout by using React-Native-Element UI library',
+        'Responsible for design and development of various components such as tab bars, map view, image picker, document picker, push notifications, sign-in/out features, profile management and navigation using react -native.',
+        'Engineered login front end functionality - including RESTful service calls, keychain, credential storage, routing, token verification, and error notifications',
+        'Involved in developing the UI for the app using TextViews, Buttons, Check boxes, Alert dialogs, Actionbar and spinners for various layouts.',
+      ],
+      tech_stacks:
+        'React-Native, React-Navigation, Redux, ES6, HTML, CSS/SASS, React-Native-Element, Axios, Android Studio',
+    },
+
     {
       project: 'Fulu Open Platform Reconstruction',
       des:
         'Fulu Open Platform is a system which provides commercial partners with virtual goods related services and value-added services. Participated in the development of Sale-Activities Management System, Logistics Status Management System and Selected Recharge APIs Management System.',
       activities: [
-        'Participated in the development of Sale-Activities Management System, Logistics Status Management System and Selected Recharge APIs Management System',
-        'Split components according to their function, designed the relationship between components',
+        'Worked in Agile environment, had biweekly sprints and daily scrum.',
+        'Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on everyday basis.',
+        'Used Git for version control of the source code along with the maintenance of the builds and the relevant documents of the same.',
         'Designed front-end route, built route with React-Router to realize page transformation',
-        'Managed the transfer of state values between components by using Redux',
-        'Sent Ajax requests to RESTful APIs by using Axios',
-        'Built pages layout by using Ant-Design UI library',
+        'Fetched data from the backend asynchronously by using Redux-Saga and Axios.',
+        'Sent Ajax requests to RESTful APIs by using Axios ',
         'Made customized components by Styled-Components',
-        'Mocked REST  APIs by using EasyMock',
-        'Defined styles by using SASS pre-processor',
-        'Used ESLint and Prettier to standardize code writing',
+        'Performed the System Testing, Regression Testing for Complete UI after fixing the Issues which are reported by Testing Team.',
       ],
       tech_stacks:
         'React, React-router, React-Hooks, Redux, ES6, HTML, CSS/SASS, Redux-actions, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design, EasyMock',
@@ -193,6 +301,86 @@ export default {
 
   /* Portfolio */
   portfolio: [
+    /* Alekt website */
+    {
+      tag: 'React',
+      title: 'Alekt website application',
+      image: alekt_web_2,
+      caption: 'React + Redux +  Axios + bootstrap + Ant-Design',
+      description:
+        'Responsible for the web application development of Course Modules, Exercise module, Assessment Module and Online Test Module.',
+      images: [
+        {
+          title: 'authorization',
+          url: alekt_web_1,
+        },
+        {
+          title: 'courses',
+          url: alekt_web_2,
+        },
+        {
+          title: 'courses',
+          url: alekt_web_3,
+        },
+        {
+          title: 'custom center',
+          url: alekt_web_4,
+        },
+      ],
+    },
+    /* Alekt admin */
+    {
+      tag: 'React',
+      title: 'Alekt admin application',
+      image: alekt_admin_2,
+      caption: 'React + Redux +  Axios + Ant-Design',
+      description:
+        'Responsible for the development of Teachers management, courses management, students management and statistics analysis.',
+      images: [
+        {
+          title: 'authorization',
+          url: alekt_admin_1,
+        },
+        {
+          title: 'courses',
+          url: alekt_admin_2,
+        },
+        {
+          title: 'courses',
+          url: alekt_admin_3,
+        },
+        {
+          title: 'statistic analysis',
+          url: alekt_admin_4,
+        },
+      ],
+    },
+
+    /* Alekt mobile app */
+    {
+      tag: 'ReactNative',
+      title: 'Alekt mobile application',
+      image: alekt_admin_2,
+      caption: 'ReactNative + Redux +  ReactNativeElement',
+      description:
+        'Responsible for the development of Course Module, Exercise module, Assessment Module and custom Center Module.',
+      images: [
+        {
+          title: 'courses',
+          url: alekt_mobile_1,
+        },
+        {
+          title: 'courses',
+          url: alekt_mobile_2,
+        },
+        {
+          title: 'custom center',
+          url: alekt_mobile_3,
+        },
+      ],
+    },
+
+    /* Fulu open platform */
     {
       tag: 'React',
       title: 'Fulu Open Platform',
@@ -219,6 +407,8 @@ export default {
         },
       ],
     },
+
+    /* Fulu fast recharge app */
     {
       tag: 'ReactNative',
       title: 'Fulu Fast Recharge APP',
@@ -245,6 +435,8 @@ export default {
         },
       ],
     },
+
+    /* Fulu website */
     {
       tag: 'jQuery',
       title: 'Fulu Network Technology Website',
@@ -267,6 +459,8 @@ export default {
         },
       ],
     },
+
+    /* my portfolio */
     {
       tag: 'React',
       title: 'My Portfolio (Personal Project)',

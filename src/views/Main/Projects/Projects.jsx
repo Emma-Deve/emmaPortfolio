@@ -9,7 +9,7 @@ import MyTimeLineItem, {
 } from '../../../components/MyTimeLine/MyTimeLine'
 
 function Information() {
-  const ProjectsData = resumeData.projects || {}
+  const ProjectsData = resumeData.projects || []
   return (
     <Box component="div" className="timeline">
       <MyTimeLineHeader
