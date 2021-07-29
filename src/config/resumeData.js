@@ -436,30 +436,6 @@ export default {
       ],
     },
 
-    /* Fulu website */
-    {
-      tag: 'jQuery',
-      title: 'Fulu Network Technology Website',
-      image: web_website_1,
-      caption: 'jQuery + Bootstrap + HTML + CSS',
-      description:
-        'It is the company official website of Fulu Network Technology, which needed to be modified according to company’s businesses changes.',
-      images: [
-        {
-          title: 'web website 1',
-          url: web_website_1,
-        },
-        {
-          title: 'web website 2',
-          url: web_website_2,
-        },
-        {
-          title: 'web website 3',
-          url: web_website_3,
-        },
-      ],
-    },
-
     /* my portfolio */
     {
       tag: 'React',
