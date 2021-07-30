@@ -359,7 +359,7 @@ export default {
     /* Alekt mobile app */
     {
       tag: 'ReactNative',
-      title: 'Alekt mobile application',
+      title: 'AIKT mobile application',
       image: alekt_admin_2,
       caption: 'ReactNative + Redux +  ReactNativeElement',
       description:
