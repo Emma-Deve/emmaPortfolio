@@ -69,7 +69,7 @@ export default {
   about_me: [
     {
       paragraph:
-        '4 years of experience in front-end applications development with 3+ years in React and 1+ year in React-Native. ',
+        '4 years of experience in front-end applications development. ',
     },
     {
       paragraph:
