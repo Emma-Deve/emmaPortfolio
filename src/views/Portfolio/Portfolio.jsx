@@ -18,8 +18,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 
 import './Portfolio.scss'
-import resumeData from '../../../config/resumeData'
-import MyTitle from '../../../components/MyTitle/MyTitle'
+import resumeData from '../../config/resumeData'
+import MyTitle from '../../components/MyTitle/MyTitle'
 
 function Portfolio() {
   const [tabValue, setTabValue] = useState('All')

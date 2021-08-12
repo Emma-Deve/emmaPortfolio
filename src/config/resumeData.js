@@ -181,8 +181,7 @@ export default {
   /* Projects */
   projects: [
     {
-      project:
-        'Custom Relationship Management System Development and Maintenance',
+      project: 'Custom Relationship Management System',
       des:
         'Responsible for CRMS development of Product Management Module, Orders Management Module and. Responsible for maintenance of this CRMS.',
       activities: [
@@ -428,6 +427,29 @@ export default {
     //     },
     //   ],
     // },
+
+    /* Fulu official website */
+    {
+      tag: 'BootStrap',
+      title: 'Fulu official website',
+      image: web_website_1,
+      caption: 'HTML + CSS + jQuery + Bootstrap',
+      description: 'Fulu official website.',
+      images: [
+        {
+          title: 'web_website_1',
+          url: web_website_1,
+        },
+        {
+          title: 'web_website_2',
+          url: web_website_2,
+        },
+        {
+          title: 'web_website_3',
+          url: web_website_3,
+        },
+      ],
+    },
 
     /* my portfolio */
     {

@@ -6,8 +6,8 @@ import './Footer.scss'
 function Footer() {
   return (
     <Box component="div" className="footer">
-      <Typography className="name">Meng Li.</Typography>
-      <Typography className="title">FrontEnd Software Engineer</Typography>
+      <Typography className="name">Emma Li.</Typography>
+      <Typography className="title">React Developer</Typography>
     </Box>
   )
 }

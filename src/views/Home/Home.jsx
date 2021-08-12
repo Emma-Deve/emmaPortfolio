@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, Typography, Grid, Paper } from '@material-ui/core'
 import './Home.scss'
-import resumeData from '../../../config/resumeData'
-import MyTitle from '../../../components/MyTitle/MyTitle'
+import resumeData from '../../config/resumeData'
+import MyTitle from '../../components/MyTitle/MyTitle'
 
 function Information() {
   const aboutMeData = resumeData.about_me || {}

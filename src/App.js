@@ -1,10 +1,10 @@
 import React from 'react'
 
 import './App.css'
-import SideBar from './views/SideBar/SideBar'
+import SideBar from './components/SideBar/SideBar'
 import Main from './views/Main/Main'
-import Header from './views/Header/Header'
-import Footer from './views/Footer/Footer'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import Particles from './components/Particles/Particles'
 
 function App() {

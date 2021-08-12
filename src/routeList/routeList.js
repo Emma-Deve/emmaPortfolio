@@ -1,8 +1,8 @@
-import Home from '../views/Main/Home/Home'
-import Experience from '../views/Main/Experience/Experience'
-import Portfolio from '../views/Main/Portfolio/Portfolio'
-import Projects from '../views/Main/Projects/Projects'
-import Contact from '../views/Main/Contact/Contact'
+import Home from '../views/Home/Home'
+import Experience from '../views/Experience/Experience'
+import Portfolio from '../views/Portfolio/Portfolio'
+import Projects from '../views/Projects/Projects'
+import Contact from '../views/Contact/Contact'
 import HomeIcon from '@material-ui/icons/Home'
 
 const routeList = [

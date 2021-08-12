@@ -2,11 +2,11 @@ import React from 'react'
 import { Box, Typography } from '@material-ui/core'
 import LaptopMacSharpIcon from '@material-ui/icons/LaptopMacSharp'
 import './Projects.scss'
-import resumeData from '../../../config/resumeData'
-import MyTitle from '../../../components/MyTitle/MyTitle'
+import resumeData from '../../config/resumeData'
+import MyTitle from '../../components/MyTitle/MyTitle'
 import MyTimeLineItem, {
   MyTimeLineHeader,
-} from '../../../components/MyTimeLine/MyTimeLine'
+} from '../../components/MyTimeLine/MyTimeLine'
 
 function Information() {
   const ProjectsData = resumeData.projects || []

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Box, Grid, TextField, Typography } from '@material-ui/core'
 import './Contact.scss'
-import MyButton from '../../../components/MyButton/MyButton'
+import MyButton from '../../components/MyButton/MyButton'
 import ContactMailSharpIcon from '@material-ui/icons/ContactMailSharp'
-import MyTitle from '../../../components/MyTitle/MyTitle'
-import SocialLink from '../../../components/SocialLink/SocialLink'
-import resumeData from '../../../config/resumeData'
+import MyTitle from '../../components/MyTitle/MyTitle'
+import SocialLink from '../../components/SocialLink/SocialLink'
+import resumeData from '../../config/resumeData'
 
 function Contact() {
   const contactData = resumeData.sidebar || {}

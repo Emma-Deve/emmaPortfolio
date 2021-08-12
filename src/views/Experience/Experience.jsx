@@ -1,9 +1,9 @@
 import React from 'react'
 import { Box, Typography } from '@material-ui/core'
 import './Experience.scss'
-import resumeData from '../../../config/resumeData'
-import MyTitle from '../../../components/MyTitle/MyTitle'
-import MyTimeLineItem from '../../../components/MyTimeLine/MyTimeLine'
+import resumeData from '../../config/resumeData'
+import MyTitle from '../../components/MyTitle/MyTitle'
+import MyTimeLineItem from '../../components/MyTimeLine/MyTimeLine'
 
 function Information() {
   const workData = resumeData.experience || []
