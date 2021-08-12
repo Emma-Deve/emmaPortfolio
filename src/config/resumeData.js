@@ -44,7 +44,7 @@ export default {
   /* Side Bar Information */
   sidebar: {
     name: 'Emma Li',
-    experience: '3+ years',
+    experience: '4 years',
     job: 'React Developer',
     phone: '0466 818 861',
     email: 'limeng19917@gmail.com',
@@ -69,7 +69,7 @@ export default {
   about_me: [
     {
       paragraph:
-        '3+ years of experience in front-end applications development with 3+ years in React and 1+ year in React-Native. ',
+        '4 years of experience in front-end applications development with 3+ years in React and 1+ year in React-Native. ',
     },
     {
       paragraph:
@@ -122,12 +122,8 @@ export default {
       content: ['React', 'Redux'],
     },
     {
-      title: 'Mobile Framework',
-      content: ['React-Native'],
-    },
-    {
       title: 'UI libraries',
-      content: ['Material-UI', 'Ant-Design', 'Bootstrap 4', 'RN-element'],
+      content: ['Material-UI', 'Ant-Design', 'Bootstrap 4'],
     },
     {
       title: 'Development Tools',
@@ -146,18 +142,18 @@ export default {
     },
     {
       title: 'Backend',
-      content: ['NodeJs', 'Express', 'MongoDB', 'MySQL'],
+      content: ['NodeJs', 'Express', 'MongoDB', 'MySQL', 'graphql'],
     },
   ],
 
   /* Experience */
   experience: [
     {
-      employer: 'Alekt Education',
-      title: 'Front-End Software Engineer',
-      time: 'Mar 2020-May 2021',
+      employer: 'Credit Asset Management Ltd',
+      title: 'Front-End Engineer',
+      time: 'July 2020 - Aug 2021',
       description:
-        'Responsible for the front end development and maintenance of dynamic and interactive web and mobile applications to achieve online classes, examinations and exercises.',
+        'Responsible for the front end development and maintenance of Customer Relationship Management System which used to manage products, customers information and orders.',
       responsibilities: [
         "Participated in the development of the company's internal systems and applications",
         'Developed new pages and features',
@@ -175,13 +171,9 @@ export default {
       description:
         "Responsible for the front end development and maintenance of company's Open Platform which provides commercial partners with virtual goods related services and value-added services.",
       responsibilities: [
-        "Participated in the development of the company's internal systems and applications",
-        'Developed new pages and features',
-        'Designed the interactive effects following by the UI design',
-        'Developed reusable and maintainable components',
-        'Collaborated with back-end engineers on APIs’ definition and integration',
-        'Cooperated with the product manager to adjust the projects',
-        'Fixed bugs according to the test reports from the test engineer',
+        'responsible for the maintenance and the development the Custom Relationship Management System.',
+        'finished the development of Order modules including Pre-loan management, business investigation and loan repayment management',
+        'finished the development of a series of configuration pages for new products, including basic, product supply channel, fee, transaction and so on.',
       ],
     },
   ],
@@ -189,9 +181,10 @@ export default {
   /* Projects */
   projects: [
     {
-      project: 'Alekt Online Education Web Application',
+      project:
+        'Custom Relationship Management System Development and Maintenance',
       des:
-        'Responsible for the development of Course Modules, Exercise module, Assessment Module and Online Test Module.',
+        'Responsible for CRMS development of Product Management Module, Orders Management Module and. Responsible for maintenance of this CRMS.',
       activities: [
         'Responsible for creating web-based applications using JavaScript (ECMAScript 6), React JS and Redux workflow',
         'Maintained Cross Browser compatibility & implement Responsive Web Design using Bootstrap, HTML5, CSS3',
@@ -207,7 +200,7 @@ export default {
         'React, React-router, React-Hooks, Redux, Redux-saga, ES6, HTML, CSS/SASS,   Styled-Components,  Axios,  GIt,  Material-UI',
     },
     {
-      project: 'Alekt Online Education Admin Application',
+      project: 'Alekt Online Education web & Admin Application',
       des:
         'Responsible for the development of Teachers management, courses management, students management and statistics analysis.',
       activities: [
@@ -223,21 +216,21 @@ export default {
         'React, React-router, React-Hooks, Redux, Redux-saga, ES6, HTML, CSS/SASS,   Styled-Components,  Axios,  GIt,  Material-UI',
     },
 
-    {
-      project: 'Alekt Online Education Mobile Application',
-      des:
-        'Responsible for the development of Course Module, Exercise module, Assessment Module and Study Center Module.',
-      activities: [
-        'Developed hybrid mobile platform for automotive applications using JS and React-Native, resulting in 88% code share between iOS and Android while reducing development time by 33%.',
-        'Managed state values by using Redux',
-        'Built pages layout by using React-Native-Element UI library',
-        'Responsible for design and development of various components such as tab bars, map view, image picker, document picker, push notifications, sign-in/out features, profile management and navigation using react -native.',
-        'Engineered login front end functionality - including RESTful service calls, keychain, credential storage, routing, token verification, and error notifications',
-        'Involved in developing the UI for the app using TextViews, Buttons, Check boxes, Alert dialogs, Actionbar and spinners for various layouts.',
-      ],
-      tech_stacks:
-        'React-Native, React-Navigation, Redux, ES6, HTML, CSS/SASS, React-Native-Element, Axios, Android Studio',
-    },
+    // {
+    //   project: 'Alekt Online Education Mobile Application',
+    //   des:
+    //     'Responsible for the development of Course Module, Exercise module, Assessment Module and Study Center Module.',
+    //   activities: [
+    //     'Developed hybrid mobile platform for automotive applications using JS and React-Native, resulting in 88% code share between iOS and Android while reducing development time by 33%.',
+    //     'Managed state values by using Redux',
+    //     'Built pages layout by using React-Native-Element UI library',
+    //     'Responsible for design and development of various components such as tab bars, map view, image picker, document picker, push notifications, sign-in/out features, profile management and navigation using react -native.',
+    //     'Engineered login front end functionality - including RESTful service calls, keychain, credential storage, routing, token verification, and error notifications',
+    //     'Involved in developing the UI for the app using TextViews, Buttons, Check boxes, Alert dialogs, Actionbar and spinners for various layouts.',
+    //   ],
+    //   tech_stacks:
+    //     'React-Native, React-Navigation, Redux, ES6, HTML, CSS/SASS, React-Native-Element, Axios, Android Studio',
+    // },
 
     {
       project: 'Fulu Open Platform Reconstruction',
@@ -256,21 +249,21 @@ export default {
       tech_stacks:
         'React, React-router, React-Hooks, Redux, ES6, HTML, CSS/SASS, Redux-actions, Redux-thunk,  Sytled-Components,  Axios,  Ant-Design, EasyMock',
     },
-    {
-      project: 'Fulu Fast Recharge Mobile APP',
-      des:
-        'It is a mobile application that contains the selected recharge APIs like phone balance and data, in which customers can register and purchase quickly.',
-      activities: [
-        'Participated in application modules development of Products and Orders',
-        'Developed mobile application with React-Native under the environments of iOS and Android',
-        'Realized page transformation by using React-Navigation',
-        'Used React-Native-Debugger for development debugging',
-        'Managed state values using Redux, and sent Ajax requests using Axios',
-        'Built pages layout by using React-Native-Element UI library',
-      ],
-      tech_stacks:
-        'React-Native, React-Navigation, Redux, ES6, HTML, CSS/SASS, React-Native-Element, Axios',
-    },
+    // {
+    //   project: 'Fulu Fast Recharge Mobile APP',
+    //   des:
+    //     'It is a mobile application that contains the selected recharge APIs like phone balance and data, in which customers can register and purchase quickly.',
+    //   activities: [
+    //     'Participated in application modules development of Products and Orders',
+    //     'Developed mobile application with React-Native under the environments of iOS and Android',
+    //     'Realized page transformation by using React-Navigation',
+    //     'Used React-Native-Debugger for development debugging',
+    //     'Managed state values using Redux, and sent Ajax requests using Axios',
+    //     'Built pages layout by using React-Native-Element UI library',
+    //   ],
+    //   tech_stacks:
+    //     'React-Native, React-Navigation, Redux, ES6, HTML, CSS/SASS, React-Native-Element, Axios',
+    // },
     {
       project: 'Fulu Network Technology Website',
       des:
@@ -357,28 +350,28 @@ export default {
     },
 
     /* Alekt mobile app */
-    {
-      tag: 'ReactNative',
-      title: 'AIKT mobile application',
-      image: alekt_admin_2,
-      caption: 'ReactNative + Redux +  ReactNativeElement',
-      description:
-        'Responsible for the development of Course Module, Exercise module, Assessment Module and custom Center Module.',
-      images: [
-        {
-          title: 'courses',
-          url: alekt_mobile_1,
-        },
-        {
-          title: 'courses',
-          url: alekt_mobile_2,
-        },
-        {
-          title: 'custom center',
-          url: alekt_mobile_3,
-        },
-      ],
-    },
+    // {
+    //   tag: 'ReactNative',
+    //   title: 'AIKT mobile application',
+    //   image: alekt_admin_2,
+    //   caption: 'ReactNative + Redux +  ReactNativeElement',
+    //   description:
+    //     'Responsible for the development of Course Module, Exercise module, Assessment Module and custom Center Module.',
+    //   images: [
+    //     {
+    //       title: 'courses',
+    //       url: alekt_mobile_1,
+    //     },
+    //     {
+    //       title: 'courses',
+    //       url: alekt_mobile_2,
+    //     },
+    //     {
+    //       title: 'custom center',
+    //       url: alekt_mobile_3,
+    //     },
+    //   ],
+    // },
 
     /* Fulu open platform */
     {
@@ -409,32 +402,32 @@ export default {
     },
 
     /* Fulu fast recharge app */
-    {
-      tag: 'ReactNative',
-      title: 'Fulu Fast Recharge APP',
-      image: app_recharge_api,
-      caption: 'ReactNative + Redux + React-Native-Element',
-      description:
-        'It is a mobile application that contains the selected recharge APIs like phone balance and data, in which customers can register and purchase quickly.',
-      images: [
-        {
-          title: 'app selected recharge Apis',
-          url: app_recharge_api,
-        },
-        {
-          title: 'app orders',
-          url: app_orders,
-        },
-        {
-          title: 'app vouchers',
-          url: app_vouchers,
-        },
-        {
-          title: 'app voucherList',
-          url: app_voucherList,
-        },
-      ],
-    },
+    // {
+    //   tag: 'ReactNative',
+    //   title: 'Fulu Fast Recharge APP',
+    //   image: app_recharge_api,
+    //   caption: 'ReactNative + Redux + React-Native-Element',
+    //   description:
+    //     'It is a mobile application that contains the selected recharge APIs like phone balance and data, in which customers can register and purchase quickly.',
+    //   images: [
+    //     {
+    //       title: 'app selected recharge Apis',
+    //       url: app_recharge_api,
+    //     },
+    //     {
+    //       title: 'app orders',
+    //       url: app_orders,
+    //     },
+    //     {
+    //       title: 'app vouchers',
+    //       url: app_vouchers,
+    //     },
+    //     {
+    //       title: 'app voucherList',
+    //       url: app_voucherList,
+    //     },
+    //   ],
+    // },
 
     /* my portfolio */
     {
