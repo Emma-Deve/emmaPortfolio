@@ -155,13 +155,9 @@ export default {
       description:
         'Responsible for the front end development and maintenance of Customer Relationship Management System which used to manage products, customers information and orders.',
       responsibilities: [
-        "Participated in the development of the company's internal systems and applications",
-        'Developed new pages and features',
-        'Designed the interactive effects following by the UI design',
-        'Developed reusable and maintainable components',
-        'Collaborated with back-end engineers on APIs’ definition and integration',
-        'Cooperated with the product manager to adjust the projects',
-        'Fixed bugs according to the test reports from the test engineer',
+        'responsible for the maintenance and the development the Custom Relationship Management System.',
+        'finished the development of Order modules including Pre-loan management, business investigation and loan repayment management',
+        'finished the development of a series of configuration pages for new products, including basic, product supply channel, fee, transaction and so on.',
       ],
     },
     {
@@ -171,9 +167,13 @@ export default {
       description:
         "Responsible for the front end development and maintenance of company's Open Platform which provides commercial partners with virtual goods related services and value-added services.",
       responsibilities: [
-        'responsible for the maintenance and the development the Custom Relationship Management System.',
-        'finished the development of Order modules including Pre-loan management, business investigation and loan repayment management',
-        'finished the development of a series of configuration pages for new products, including basic, product supply channel, fee, transaction and so on.',
+        "Participated in the development of the company's internal systems and applications",
+        'Developed new pages and features',
+        'Designed the interactive effects following by the UI design',
+        'Developed reusable and maintainable components',
+        'Collaborated with back-end engineers on APIs’ definition and integration',
+        'Cooperated with the product manager to adjust the projects',
+        'Fixed bugs according to the test reports from the test engineer',
       ],
     },
   ],
