@@ -151,7 +151,7 @@ export default {
     {
       employer: 'Credit Asset Management Ltd',
       title: 'Front-End Engineer',
-      time: 'July 2020 - Aug 2021',
+      time: 'May 2020 - Present',
       description:
         'Responsible for the front end development and maintenance of Customer Relationship Management System which used to manage products, customers information and orders.',
       responsibilities: [
